@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocchi The Rock! - Projeto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/styles.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/bg-hitori.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-hitori-mobile.png" alt="Personagem Cyberstorm" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Hitori Gotou</h2>
+                <p class="descricao">Ela é extremamente tímida e introvertida, com um forte desejo de se apresentar em uma banda para destacar seus talentos. Apesar de ser muito habilidosa, ela enfrenta desafios em demonstrar suas habilidades efetivamente na frente de uma audiência.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-ryo.png" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-ryo-mobile.png" alt="Personagem CodePixie" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Ryou Yamada</h2>
+                <p class="descricao">Ela trabalha meio período na casa de shows "STARRY" com Nijika Ijichi. Ela tem uma aparência andrógina e uma atmosfera misteriosa, muitas vezes inexpressiva. Ela frequentemente fascina mulheres, incluindo Ikuyo Kita, que se apaixona à primeira vista.</p>
+            </div>
+        </div>
+
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-nijika.jpeg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-nijika-mobile.png" alt="Personagem HexBlade" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Nijika Ijichi</h2>
+                <p class="descricao">Uma estudante do segundo ano do ensino médio, enérgica e alegre. Ela é a baterista da Kessoku Band. Ela tem uma irmã mais velha, Seika, que é a gerente da casa de shows "STARRY" e tem um sentimento especial pela casa de shows.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-kita.jpeg" media="(min-width: 768px)" />
+                <img class="imagem" src="./src/imagens/bg-kita-mobile.png" alt="Personagem NeonPulse" />
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Ikuyo Kita</h2>
+                <p class="descricao">Uma brilhante e popular primeiranista do ensino médio. Ela é responsável pela guitarra e vocais da Kessoku Band. Ela é uma personagem alegre que gosta de interagir com as pessoas e pode falar com ela com um sorriso sem hesitação, mesmo quando a conhece pela primeira vez. Ela admira Ryo, e seus sentimentos podem ir longe demais.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao bocchi selecionado">
+                <img src="./src/imagens/icone-bocchi.png" alt="Ícone Bocchi" />
+            </button>
+        </li>
+        <li>
+            <button class="botao ryo">
+                <img src="./src/imagens/icone-ryo.png" alt="Ícone Ryo" />
+            </button>
+        </li>
+        <li>
+            <button class="botao nijika">
+                <img src="./src/imagens/icone-nijika.png" alt="Ícone Nijika" />
+            </button>
+        </li>
+        <li>
+            <button class="botao kita">
+                <img src="./src/imagens/icone-kita.png" alt="Ícone Kita" />
+            </button>
+        </li>
+    </ul>
+
+    <script src="js/index.js"></script>
+    
+</body>
+
+</html>
