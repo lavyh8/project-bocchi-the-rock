@@ -59,7 +59,7 @@ main .personagem .imagem {
 }
 
 .botoes {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.149);
     position: fixed;
     top: 0;
     right: 0;
@@ -75,7 +75,7 @@ main .personagem .imagem {
 
 .botoes .botao {
     border: none;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     width: 90px;
     height: 90px;
     cursor: pointer;

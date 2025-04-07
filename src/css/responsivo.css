@@ -65,3 +65,10 @@
         max-width: 50px;
     }
 }
+
+@media (max-width: 1180px){
+    main::after{
+        background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0.00) 70%) no-repeat;
+        width: 100vw;
+    }
+}
